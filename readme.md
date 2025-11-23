@@ -47,6 +47,7 @@ It is fully responsive and includes a mobile-friendly navigation bar.
 ├── profile.png
 ├── germany.png
 ├── linkedIn.svg
+├── preview.jpeg
 └── README.md
 ```
 
@@ -70,6 +71,7 @@ You can add a preview screenshot here later:
 
 ```
 ![Portfolio Preview](./preview.jpeg)
+
 ```
 
 ---
