@@ -8,6 +8,13 @@ A modern and responsive **portfolio website** built using **HTML, CSS, and JavaS
 This portfolio showcases personal details, skills, education, and featured projects in a clean and organized layout.
 It is fully responsive and includes a mobile-friendly navigation bar.
 
+## **📸 Preview**
+
+You can add a preview screenshot here later:
+
+
+![Image](https://github.com/user-attachments/assets/180e8b61-f213-4006-a8e0-df1fd604c166)
+
 ---
 
 ## **📌 Features**
@@ -65,12 +72,7 @@ It is fully responsive and includes a mobile-friendly navigation bar.
 
 ---
 
-## **📸 Preview**
 
-You can add a preview screenshot here later:
-
-
-![Image](https://github.com/user-attachments/assets/180e8b61-f213-4006-a8e0-df1fd604c166)
 
 
 
