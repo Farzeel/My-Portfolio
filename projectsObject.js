@@ -19,7 +19,7 @@ export const portfolioProjects = [
         id: "project-quiz",
         title: "Quiz App",
         tagline: "Multiple-choice quiz system.",
-        thumbnailUrl: ["./projectPic/quiz-app0.jpg","./projectPic/quiz-app1.jpg","./projectPic/quiz-app2.jpg"],
+        thumbnailUrl: ["./projectPic/quiz-app0.JPG","./projectPic/quiz-app1.JPG","./projectPic/quiz-app2.JPG"],
         shortDescription:
           "A quiz application with scoring, progress tracking, and UI feedback.",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -32,7 +32,7 @@ export const portfolioProjects = [
         id: "project-calendar",
         title: "Custom Calendar",
         tagline: "Dynamic interactive calendar.",
-        thumbnailUrl: ["./projectPic/custom-calendar.jpg"],
+        thumbnailUrl: ["./projectPic/custom-calendar.JPG"],
         shortDescription:
           "A fully functional custom calendar with month navigation.",
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -47,7 +47,7 @@ export const portfolioProjects = [
           id: "project-bgcolor",
           title: "Background Color Changer",
           tagline: "One-click color switcher.",
-          thumbnailUrl: ["./projectPic/bg-color-changer.jpg"],
+          thumbnailUrl: ["./projectPic/bg-color-changer.JPG"],
           shortDescription:
             "A minimal tool that changes background colors with dynamic UI updates.",
           technologies: ["HTML", "CSS", "JavaScript"],
@@ -61,7 +61,7 @@ export const portfolioProjects = [
           id: "project-countdown",
           title: "Countdown Timer",
           tagline: "Track remaining time easily.",
-          thumbnailUrl: ["./projectPic/countdown-timer.jpg"],
+          thumbnailUrl: ["./projectPic/countdown-timer.JPG"],
           shortDescription:
             "A customizable countdown timer built with vanilla JavaScript.",
           technologies: ["HTML", "CSS", "JavaScript"],
@@ -77,7 +77,7 @@ export const portfolioProjects = [
           id: "project-clock",
           title: "Digital Clock",
           tagline: "Real-time digital clock.",
-          thumbnailUrl: ["./projectPic/digital-clock.gif"],
+          thumbnailUrl: ["./projectPic/digital-clock.GIF"],
           shortDescription:
             "A live digital clock displaying hours, minutes, and seconds.",
           technologies: ["HTML", "CSS", "JavaScript"],
@@ -91,7 +91,7 @@ export const portfolioProjects = [
           id: "project-tax",
           title: "Income Tax Calculator",
           tagline: "Simple tax calculation tool.",
-          thumbnailUrl: ["./projectPic/income-tax.jpg"],
+          thumbnailUrl: ["./projectPic/income-tax.JPG"],
           shortDescription:
             "A quick calculator that estimates income tax based on user input.",
           technologies: ["HTML", "CSS", "JavaScript"],
@@ -134,7 +134,7 @@ export const portfolioProjects = [
             id: "project-astro",
             title: "Astrology App",
             tagline: "Find zodiac signs & predictions.",
-            thumbnailUrl: ["./projectPic/astrology-app.jpg"],
+            thumbnailUrl: ["./projectPic/astrology-app.JPG"],
             shortDescription:
               "A simple astrology tool that shows zodiac signs, traits, and daily predictions.",
             technologies: ["HTML", "CSS", "JavaScript"],
