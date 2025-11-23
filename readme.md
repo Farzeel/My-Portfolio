@@ -69,10 +69,10 @@ It is fully responsive and includes a mobile-friendly navigation bar.
 
 You can add a preview screenshot here later:
 
-```
+
 ![Image](https://github.com/user-attachments/assets/180e8b61-f213-4006-a8e0-df1fd604c166)
 
-```
+
 
 ---
 
