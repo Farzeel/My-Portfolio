@@ -6,11 +6,13 @@
 :root {
     --nav-bg: #1f1f1f;
     --text-base: #a0a0a0;
-    --accent: #FFBF00; /* Gold/Amber color */
+    --accent: #FFBF00; 
     --border-color: #3a3a3a;
 }
 
-
+html {
+    scroll-behavior: smooth; 
+}
 body{
 
     font-family: ROBOTO , 'Times New Roman', Times, serif;
@@ -103,7 +105,7 @@ position: relative;
     gap: 3px;
 }
 .value img{
-
+width :20px
 }
 
 .email , .phone{
@@ -507,6 +509,7 @@ transition: transform 0.5s ease, box-shadow 0.5s ease;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
+ 
   }
   
   .projectscards .project {
@@ -515,6 +518,8 @@ transition: transform 0.5s ease, box-shadow 0.5s ease;
     border: 1px solid #3a3a3a;
     overflow: hidden;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+   
+    
   }
   
   .projectscards .project:hover {
@@ -524,9 +529,20 @@ transition: transform 0.5s ease, box-shadow 0.5s ease;
   
   .projectscards img {
    width: 100%;
+ 
     object-fit: cover;
+    opacity: 1;
+  transition: opacity 1s ease-in-out;
+  
   }
+.slide-image{
+    
+ 
+}
 
+.fade-out {
+  opacity: 0;
+}
 
 
 /* Tech Bar Container */

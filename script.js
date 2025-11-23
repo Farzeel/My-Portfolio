@@ -11,7 +11,9 @@ const mobileNav = ["ABOUT" , "SKILLS" , "EDUCATION" , "PROJECTS"]
 
 let activeNav = navBar[0]
 let mobileActiveNav = mobileNav[0]
+let currImageIndex = 0
 
+let filterProjects = []
 
 let activeTag = "ALL"
 
@@ -106,13 +108,23 @@ function renderEducation(){
 
 }
 
-function renderProjectCards(){
-    projectscards.innerHTML = " "
 
-   portfolioProjects.map(proj=>(
+
+function renderProjectCards(){
+    let projectsToDisplay;
+    projectscards.innerHTML = " "
+    if (activeTag == "ALL") {
+         projectsToDisplay = portfolioProjects;
+    } else {
+        projectsToDisplay = filterProjects;
+    }
+    projectsToDisplay.forEach((proj , i)=>{
+    
     projectscards.innerHTML +=`
     <div class="project">
-              <img src=${proj.thumbnailUrl} alt=${proj.title} />
+            
+                <img class = "slide-image" src="${proj.thumbnailUrl[currImageIndex]}" alt="${proj.title}"  />
+           
             
               <div class="card">
                
@@ -139,19 +151,42 @@ function renderProjectCards(){
                 </div>
               </div>
             </div>`
-   ))
+                })
 
 }
 function handleActiveTag(e){
     activeTag = e.target.innerText
+    if(activeTag=="REACT & TYPESCRIPT"){
+        filterProjects = portfolioProjects.filter(proj => 
+            proj.technologies.includes("React") && 
+            proj.technologies.includes("Typescript")
+        );
+    }
+    else if(activeTag=="HTML & CSS"){
+        filterProjects = portfolioProjects.filter(proj => 
+            proj.technologies.includes("HTML") && 
+            proj.technologies.includes("CSS")
+        );
+    }
+    else if(activeTag=="JAVASCRIPT"){
+        filterProjects = portfolioProjects.filter(proj => 
+            proj.technologies.includes("JavaScript") 
+        );
+    }
+    else if(activeTag=="TAILWIND"){
+        filterProjects = portfolioProjects.filter(proj => 
+            proj.technologies.includes("Tailwind") 
+        );
+    }
     renderTags()
+    renderProjectCards()
     
 }
-function handleActiveMobileTag(e){
-    activeTag = e.target.innerText
-    renderTags()
+// function handleActiveMobileTag(e){
+//     activeTag = e.target.innerText
+//     renderTags()
     
-}
+// }
 function handleActiveNav(e){
     activeNav = e.target.innerText
    renderNav()
