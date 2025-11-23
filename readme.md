@@ -70,7 +70,7 @@ It is fully responsive and includes a mobile-friendly navigation bar.
 You can add a preview screenshot here later:
 
 ```
-![Portfolio Preview](./preview.jpeg)
+![Portfolio Preview]([./preview.jpeg](https://github.com/Farzeel/My-Portfolio/blob/7f63ffcd76cc01494cda7c77a2794aa77d3249ba/preview.jpeg))
 
 ```
 
