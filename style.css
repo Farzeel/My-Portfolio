@@ -749,7 +749,9 @@ transition: transform 0.5s ease, box-shadow 0.5s ease;
    
 
         .container{
+            padding: 4px;
             padding-bottom: 67px;
+            
         }
         #navbar nav{
             
