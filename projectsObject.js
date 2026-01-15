@@ -2,7 +2,37 @@ export const portfolioProjects = [
  
 
 
-    {
+  {
+    id: "project-ai-coding-platform",
+    title: "AI-Powered Coding Platform",
+    tagline: "Practice, submit, and learn coding with AI assistance.",
+    thumbnailUrl: [
+      "./projectPic/leetcode.jpeg"
+    ],
+    shortDescription:
+      "A full-stack coding platform that allows users to practice programming problems, submit solutions, and receive real-time evaluation with AI-powered hints and explanations.",
+    technologies: [
+      "JavaScript",
+      "Typescript",
+      "React",
+      "Tailwind CSS",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "Judge0 API",
+      "Gemini LLM",
+      "Cloudinary"
+    ],
+    primaryCategory: "Education",
+    liveDemoUrl: "https://github.com/Farzeel/AI-Study-Assistant",
+    liveDemo: false,
+    githubRepoUrl: "https://github.com/Farzeel/ai-powered-coding-platform"
+  },
+    
+  
+  {
         id: "project-todo",
         title: "Todo App",
         tagline: "Organize tasks efficiently.",
